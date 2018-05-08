@@ -21,3 +21,4 @@
 * Brownian motion kernel
 * Make some more complicated toy data with linear/RBF trend. Do experiments with data with and without periodicity. See if variance of periodic kernel is different
     *  goal is to show if modeling periodicity like this even makes sense
+    * with no noise clearly periodicity helps. When adding noise, periodicity also helps. However, in this case the periodicity plays also a big role in fitting the linear data that isn't supposed to have any periodicity (just noise)
